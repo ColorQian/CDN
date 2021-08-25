@@ -2,3 +2,13 @@ git pull cdn master  #拉取远程仓库到本地
 git add .
 git commit -m '描述内容'
 git push cdn master  # 推送到GitHub仓库
+
+
+-----------------------------------------------
+#通过 jsdelivr 引用资源
+#使用方法：https://cdn.jsdelivr.net/gh/ 你的用户名 / 你的仓库名 @发布的版本号 / 文件路径
+
+#版本号不是必需的，是为了区分新旧资源，如果不使用版本号，将会直接引用最新资源
+#例如：
+https://cdn.jsdelivr.net/gh/ColorQian/cdn/featureimages/5.jpg
+https://cdn.jsdelivr.net/gh/ColorQian/cdn@1.0/featureimages/5.jpg
