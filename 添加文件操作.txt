@@ -1,0 +1,4 @@
+git pull cdn master  #拉取远程仓库到本地
+git add .
+git commit -m '描述内容'
+git push cdn master  # 推送到GitHub仓库
